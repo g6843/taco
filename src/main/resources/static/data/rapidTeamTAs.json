@@ -1,0 +1,121 @@
+[{
+	"skills": ["c", "python"],
+	"interests": ["Programming", "Testing"],
+	"tacourses": ["COM S 104", "COM S 107"],
+	"workHours": "20",
+	"id": 1,
+	"email": "abc@xyz.com",
+	"program": "undergraduate",
+	"name": "abbc",
+	"availableHours": 0,
+	"courseHours": [{
+		"course": "COM S 104",
+		"hours": 10
+	}, {
+		"course": "COM S 107",
+		"hours": 10
+	}],
+	"experience": {
+		"projects": ["java", "c"],
+		"previousTA": [{
+			"course": "COM S 101",
+			"years": "4"
+		}]
+	},
+	"major": "CS",
+	"availability": [{
+		"hours": "12",
+		"day": "Monday"
+	}, {
+		"hours": "8",
+		"day": "Tuesday"
+	}],
+	"role": "TA"
+}, {
+	"skills": ["C", "Python"],
+	"interests": ["Programming", "Testing"],
+	"tacourses": ["COM S 107"],
+	"workHours": "20",
+	"id": 104,
+	"email": "ta1@xyz.com",
+	"program": "undergraduate",
+	"name": "ta1",
+	"availableHours": 10,
+	"courseHours": [{
+		"course": "COM S 107",
+		"hours": 10
+	}],
+	"experience": {
+		"projects": ["java", "c"],
+		"previousTA": [{
+			"course": "COM S 121",
+			"years": "2"
+		}]
+	},
+	"major": "CS",
+	"availability": [{
+		"hours": "12",
+		"day": "Monday"
+	}, {
+		"hours": "8",
+		"day": "Tuesday"
+	}],
+	"role": "TA"
+}, {
+	"skills": ["C", "Python", "JavaScript"],
+	"interests": ["Software Development", "Team Management"],
+	"tacourses": ["COM S 107"],
+	"workHours": "20",
+	"id": 102,
+	"email": "ta2@xyz.com",
+	"program": "undergraduate",
+	"name": "Ta2",
+	"availableHours": 10,
+	"courseHours": [{
+		"course": "COM S 107",
+		"hours": 10
+	}],
+	"experience": {
+		"projects": ["java", "Python"],
+		"previousTA": [{
+			"course": "COM S 102",
+			"years": "4"
+		}]
+	},
+	"major": "CS",
+	"availability": [{
+		"hours": "12",
+		"day": "Monday"
+	}, {
+		"hours": "8",
+		"day": "Tuesday"
+	}],
+	"role": "TA"
+}, {
+	"skills": ["C++", "Android", "JavaScript"],
+	"interests": ["Software Development"],
+	"tacourses": ["COM S 109"],
+	"workHours": "20",
+	"id": 103,
+	"email": "ta3@gmail.com",
+	"program": "undergraduate",
+	"name": "Ta2",
+	"availableHours": 10,
+	"courseHours": [{
+		"course": "COM S 107",
+		"hours": 10
+	}],
+	"experience": {
+		"projects": ["JavaScript", "Ruby"],
+		"previousTA": null
+	},
+	"major": "CS",
+	"availability": [{
+		"hours": "12",
+		"day": "Monday"
+	}, {
+		"hours": "8",
+		"day": "Tuesday"
+	}],
+	"role": "TA"
+}]

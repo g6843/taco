@@ -1,0 +1,5 @@
+<ul class="nav" id="side-menu">
+	<li ng-repeat="rapidTeam in $ctrl.rapidTeams | limitTo: 1" ng-if="url.role=='role/prof'">
+		<a href="#!/{{url.role}}/newTeam/{{rapidTeam.id}}">Add a new team</a>
+	</li>
+</ul>                                                                                             

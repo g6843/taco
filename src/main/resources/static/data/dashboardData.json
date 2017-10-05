@@ -1,0 +1,51 @@
+{
+	"courses": [{
+			"courseId": "COM S 104",
+			"names": ["Arielle Black", "Ani Gevorgyan", "Sonal Garg", "gggg"],
+			"tasks":["Assignment Grading", "Exam Grading", "Problem Solving", "Assignment Solutions"],
+			"chart1": {
+				"hours": [10, 5, 20, 25]
+			},
+			"chart2": {
+				"data": [
+					[10, 5, 20, 25],
+					[8, 2, 2, 4]
+				],
+				"series": ["Assigned", "Completed"]
+			},
+			"chart3": {
+				"data": [
+					[3, 4, 2, 6],
+					[2, 2, 0, 4]
+				],
+				"series": ["Assigned", "Completed"]
+			}
+		},
+		{
+			"courseId": "COM S 107",
+			"names": ["aaa", "bbb", "ccc", "ddd"],
+			"tasks":["Proctoring", "Documentation", "Grade Calculation", "Attendance Check"],
+			"chart1": {
+				"hours": [5,6,10,5]
+			},
+			"chart2": {
+				"data": [
+					[5,6,10,5],
+					[2,2,2,0]
+				],
+				"series": ["Assigned", "Completed"]
+			},
+			"chart3": {
+				"data": [
+					[5, 3, 2, 4],
+					[2,1, 1, 4]
+				],
+				"series": ["Assigned", "Completed"]
+			}
+		}
+
+
+
+
+	]
+}

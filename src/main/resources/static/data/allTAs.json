@@ -1,0 +1,87 @@
+[{
+	"id" : 1,
+	"name": "abbc",
+	"email": "abc@xyz.com",
+	"major": "CS",
+	"program": "undergraduate",
+	"skills": [
+		"c",
+		"python"
+	],
+	"experience": {
+		"projects": [
+			"java",
+			"c"
+		],
+		"previousTA": [{
+			"course": "COM S 101",
+			"years": 4
+
+		}]
+	},
+	"workHours": 20,
+	"courseHours": [
+		{
+			"course": "COM S 107",
+			"hours": 10
+		}
+	],
+	"availableHours": 10,
+	"availability": [{
+			"day": "Monday",
+			"hours": 12
+		},
+		{
+			"day": "Tuesday",
+			"hours": 8
+		}
+	],
+	"interests": [
+		"Programming",
+		"Testing"
+	],
+	"tacourses": ["COM S 107"]
+},
+{
+	"id": 2,
+	"name": "abc",
+	"email": "abc@xyz.com",
+	"major": "CS",
+	"program": "undergraduate",
+	"skills": [
+		"c",
+		"python"
+	],
+	"experience": {
+		"projects": [
+			"java",
+			"c"
+		],
+		"previousTA": [{
+			"course": "COM S 102",
+			"years": 4
+
+		}]
+	},
+	"workHours": 20,
+	"courseHours": [{
+			"course": "COM S 217",
+			"hours": 10
+		}
+	],
+	"availableHours": 10,
+	"availability": [{
+			"day": "Monday",
+			"hours": 8
+		},
+		{
+			"day": "Tuesday",
+			"hours": 12
+		}
+	],
+	"interests": [
+		"Mobile Development",
+		"Web Development"
+	],
+	"tacourses": ["COM S 217"]
+}]

@@ -1,0 +1,6 @@
+{
+	"id": "abc",
+	"courses": ["COM S 104",
+			"COM S 107"],
+	"rapidTeams": ["Surprise Quiz1", "Workshop on Cloud Computing"]
+}

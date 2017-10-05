@@ -1,0 +1,24 @@
+                      
+                       <div>  <li ng-repeat="message in messages">
+                            <a>
+                                <div ng-click = "notificationClick(message)">
+                                	
+                                    
+                                    <span class="pull-left text small">{{message.text}}</span>
+                                    <br />
+                                    <span class="pull-left text-muted small"> {{message.timeStamp}}</span>
+                                    <br />
+                                    <button class="pull-right text small" ng-click = "reject($index)"><img style="width:10px;height:10px;" src = "../img/notification/cancel.png"></button>
+                                	<button class="pull-right text small" ng-click = "accept($index)"><img  style="width:10px;height:10px;" src = "../img/notification/tick.png"></button>
+                                <hr />
+                                </div>
+                            </a>
+                            </li> </div>
+                                                   
+                            
+                            
+                            
+                            
+                            
+                            
+                            

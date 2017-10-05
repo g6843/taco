@@ -1,0 +1,17 @@
+#page-wrapper.ng-animate {
+  -webkit-transition: -webkit-transform 0.5s;
+  position: absolute;
+}
+
+#page-wrapper.ng-enter {
+-webkit-transform: rotateY(-180deg);
+}
+
+#page-wrapper.ng-leave,
+#page-wrapper.ng-enter.ng-enter-active {
+-webkit-transform: rotateY(0deg);
+}
+
+#page-wrapper.ng-leave.ng-leave-active {
+	-webkit-transform: rotateY(180deg);
+}

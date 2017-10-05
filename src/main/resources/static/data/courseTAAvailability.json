@@ -1,0 +1,37 @@
+[{
+		"id": 1,
+		"name": "abbc",
+		"courseHours": 10,
+		"availableHours": 2
+	},
+	{
+		"id": 2,
+		"name": "abbcdd",
+		"courseHours": 20,
+		"availableHours": 2
+	},
+	{
+		"id": 3,
+		"name": "xyz",
+		"courseHours": 10,
+		"availableHours": 2
+	},
+	{
+		"id": 4,
+		"name": "xyyz",
+		"courseHours": 20,
+		"availableHours": 4
+	},
+	{
+		"id": 5,
+		"name": "abcxyz",
+		"courseHours": 10,
+		"availableHours": 2
+	},
+	{
+		"id": 1,
+		"name": "abcxyzabc",
+		"courseHours": 20,
+		"availableHours": 0
+	}
+]

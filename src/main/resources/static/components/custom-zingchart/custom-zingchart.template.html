@@ -1,0 +1,56 @@
+<div class="row">
+
+<div class="col-lg-12">
+
+
+
+		<div ng-repeat="course in courses" >
+	  <!-- <button class="btn btn-info" style="background-color: #555555;color:#EE6837"  ng-model="collapsed" ng-click="collapsed=!collapsed">
+	   {{course.courseId}}</button>
+-->
+
+			
+		
+		<div class="col-lg-12" ng-hide="collapsed">
+		<h1>{{course.courseId}}</h1>
+		<div class="col-lg-6">
+
+			<div class="panel panel-default" >
+				<div class="panel-heading">
+					<i class="fa fa-bar-chart-o fa-fw"></i> Assigned Hours for TAs
+				</div>
+				<div class="panel-body">
+
+
+		<h3 style="color:#EE6837" >Assigned Hours for TAs</h3>
+ 	 		<canvas id="polar-area" class="chart chart-polar-area" chart-data="course.chart1.hours" chart-labels="course.names" chart-options="chartParams.options" chart-colors="chartParams.colours"  ></canvas> 
+		</div>
+            </div>
+            </div>
+
+		<div class="col-lg-6" >
+
+			<div class="panel panel-default" >
+				<div class="panel-heading">
+					<i class="fa fa-bar-chart-o fa-fw"></i> Task Status
+				</div>
+				<div class="panel-body">
+
+		<h3 style="color:#EE6837">Task Status</h3>
+ 			<canvas id="bar" class="chart chart-bar" chart-data="course.chart2.data" chart-labels="course.names" chart-series="course.chart2.series" chart-options="chartParams.options" 
+ 			chart-colors="chartParams.colours" > </canvas>	
+
+		</div>
+
+		</div>
+		
+		</div>
+
+		</div>
+	
+</div>
+</div>
+</div>
+
+
+ 	

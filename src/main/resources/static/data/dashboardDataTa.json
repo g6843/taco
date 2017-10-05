@@ -1,0 +1,35 @@
+{
+	"courses": [{
+			"courseId": "COM S 104",
+			"tasks": ["Task: 101", "Task: 102"],
+			"chart1": {
+				"hours": [10, 5]
+			},
+			"chart2": {
+				"data": [
+					[10, 5],
+					[8, 2]
+				],
+				"series": ["Assigned", "Completed"]
+			}
+		},
+		{
+			"courseId": "COM S 107",
+			"tasks": ["Task: 434", "Task: 444", "Task: 656"],
+			"chart1": {
+				"hours": [5,6,8]
+			},
+			"chart2": {
+				"data": [
+					[5,6,8],
+					[2,2,0]
+				],
+				"series": ["Assigned", "Completed"]
+			}
+		}
+
+
+
+
+	]
+}

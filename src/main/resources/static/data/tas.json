@@ -1,0 +1,37 @@
+{
+	"name": "abc",
+	"email": "abc@xyz.com",
+	"department": "CS",
+	"courses": [{
+			"name": "COM S 104",
+			"hours": [{
+				"Wednesday": [{
+					"Start": "0900",
+					"Finish": "1000"
+				}],
+				"Thursday": [{
+						"Start": "0900",
+						"Finish": "1000"
+					},
+					{
+						"Start": "1600",
+						"Finish": "1700"
+					}
+				]
+			}]
+		},
+		{
+			"name": "COM S 107",
+			"hours": [{
+				"Monday": [{
+					"Start": "0900",
+					"Finish": "1100"
+				}],
+				"Tuesday": [{
+					"Start": "0900",
+					"Finish": "1000"
+				}]
+			}]
+		}
+	]
+}

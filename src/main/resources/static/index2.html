@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TA & co</title>
+
+<!-- User Profile CSS -->
+<link href="../css/user-profile.css" rel="stylesheet" />
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <style>
+    .clicked
+    {
+    background-color:LightGrey;
+    }
+  	</style>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+          
+           <div>
+                <a class="navbar-brand">TA & CO</a>
+            </div> 
+            <!-- /.navbar-header -->
+			<ul class="nav navbar-top-links navbar-right" background-color="powderblue">
+				<li class="dropdown user user-menu"><a class="dropdown-toggle"
+					data-toggle="dropdown"> <i class="fa fa-user fa-fw"></i>
+						USER PROFILE<i class="fa fa-caret-down"></i>
+				</a>
+					<ul class="dropdown-menu">
+						<li>
+							<p>
+								<user-profile></user-profile>
+							</p>
+						</li>
+
+
+
+						<li class="divider"></li>
+						<li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i>
+								Logout</a></li>
+					</ul> <!-- /.dropdown-user --></li>
+				<!-- /.dropdown -->
+			</ul>
+            <!-- /.navbar-top-links -->
+
+      <section class="sidebar">  
+ 			<div class="user-panel">
+             		 <span> <h3>Welcome!</h3> 
+              		<user-profile></user-profile> </span> 
+     			</div>  
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+
+                    <ul class="nav" id="side-menu">      
+                        <li>
+                            <a href="index2.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+                        <li>
+                            <a><i class="fa fa-table fa-fw"></i> Courses<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <courses-list></courses-list>
+                            </ul> 
+                            
+                        </li>
+                        <li>
+                            <a><i class="fa fa-table fa-fw"></i> Rapid Teams<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <rapid-teams></rapid-teams>
+                               <!--  <new-team></new-team> -->
+                            </ul> 
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+   </section>
+   </div>
+   <div id="page-wrapper" ng-view>
+   </div>
+   
+  
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+	<script src=https://cdn.jsdelivr.net/chart.js/2.2.1/Chart.min.js></script>
+	<script src="https://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js"></script>
+	<script src="../js/app.module.js"></script>
+	<script src="../js/app.config.js"></script>
+	
+	<script src="../components/courses-list/courses-list.module.js"></script>
+    <script src="../components/courses-list/courses-list.component.js"></script>
+    <script src="../components/course-detail/course-detail.module.js"></script>
+    <script src="../components/course-detail/course-detail.component.js"></script>
+    <script src="../components/tacourse-detail/tacourse-detail.module.js"></script>
+    <script src="../components/tacourse-detail/tacourse-detail.component.js"></script>
+    
+	<script src="../components/user-profile/user-profile.module.js"></script>
+	<script src="../components/user-profile/user-profile.component.js"></script>
+
+    
+    <script src="../components/rapid-teams/rapid-teams.module.js"></script>
+    <script src="../components/rapid-teams/rapid-teams.component.js"></script>
+    <script src="../components/rapteam-detail/rapteam-detail.module.js"></script>
+    <script src="../components/rapteam-detail/rapteam-detail.component.js"></script>
+    
+    <script src="../components/new-team/new-team.module.js"></script>
+    <script src="../components/new-team/new-team.component.js"></script>
+    <script src="../components/create-team/create-team.module.js"></script>
+    <script src="../components/create-team/create-team.component.js"></script>
+    
+	<script src="../components/ta-charts/ta-charts.module.js"></script>
+	<script src="../components/ta-charts/ta-charts.component.js"></script>
+	<script src="../components/custom-zingchart/custom-zingchart.module.js"></script>
+	<script src="../components/custom-zingchart/custom-zingchart.component.js"></script>
+
+</body>
+
+</html>

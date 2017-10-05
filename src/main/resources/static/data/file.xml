@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Kronos_WFC TimeStamp="6/23/2017 4:32PM GMT-04:00" version="1.0" WFCVersion="8.0.14.300">
+<Response Status="Success" Action="Load">
+<Personality>
+<Identity>
+<PersonIdentity PersonNumber="6" />
+</Identity>
+<JobAssignmentData>
+<JobAssignment HasPersonalOvertimeFlag="false" UseMultipleAssignmentsFlag="false">
+<JobAssignmentDetailsData>
+<JobAssignmentDetails PayRuleName="Full Time" SupervisorPersonNumber="12" SupervisorName="Snow, F J" TimeZoneName="(GMT -05:00) Eastern Time" BaseWageHourly="7.50" />
+</JobAssignmentDetailsData>
+<PrimaryLaborAccounts>
+<PrimaryLaborAccount EffectiveDate="1/01/1753" ExpirationDate="1/01/3000" LaborAccountName="101/201/301/401/501/601/701" />
+</PrimaryLaborAccounts>
+<BaseWageRates>
+<BaseWageRate HourlyRate="7.50" EffectiveDate="1/01/1753" ExpirationDate="1/01/3000" />
+</BaseWageRates>
+ </JobAssignment>
+</JobAssignmentData>
+<PersonInformationData>
+<PersonInformation>
+<AccessAssignmentData>
+<AccessAssignment AccessProfileName="Default" GroupScheduleName="Empty Profile" ManagerAccessSetName="Empty Profile" ManagerPayCodeName="Empty Profile" ManagerViewPayCodeName="Empty Profile" ManagerTransferSetName="Empty Profile" ManagerApprovalSetName="Empty Profile" ManagerWorkRuleName="Empty Profile" PreferenceProfileName="Default" ProfessionalPayCodeName="Empty Profile" ProfessionalTransferSetName="Empty Profile" ProfessionalWorkRuleName="Empty Profile" ReportName="Empty Profile" SchedulePatternName="Empty Profile" ShiftCodeName="Empty Profile" AvailabilityPatternName="Empty Profile" TransferEmployeeFlag="false" DelegateProfileName="Empty Profile" ApproveOvertimeFlag="false" HyperFindScheduleVisibilityName="Empty Profile" NotificationProfileName="" KnownPlaceProfileName="" AccessMethodProfileName="">
+<EffectiveDatedTimeEntryMethods />
+</AccessAssignment>
+</AccessAssignmentData>
+<PersonAccessAssignments>
+<PersonAccessAssignment EffectiveDate="1/01/1753" ExpirationDate="1/01/3000" ManagerAccessOrganizationSetName="Empty Profile" ManagerTransferOrganizationSetName="Empty Profile" ProfessionalTransferOrganizationSetName="Empty Profile" />
+</PersonAccessAssignments>
+<BadgeAssignments>
+<BadgeAssignment BadgeNumber="706132" EffectiveDate="10/25/1998 12:00AM" ExpirationDate="1/01/3000 12:00AM" />
+</BadgeAssignments>
+<EmploymentStatusList>
+<EmploymentStatus EffectiveDate="10/25/1998" ExpirationDate="1/01/3000" EmploymentStatusName="Active" />
+</EmploymentStatusList>
+<HomeAccounts>
+<HomeAccount EffectiveDate="1/01/1753" ExpirationDate="1/01/3000" LaborAccountName="101/201/301/401/501/601/701" />
+</HomeAccounts>
+<PersonLicenseTypes>
+<PersonLicenseType ActiveFlag="true" LicenseTypeName="Workforce Timekeeper" />
+</PersonLicenseTypes>
+<PersonAuthenticationTypes>
+<PersonAuthenticationType ActiveFlag="true" AuthenticationTypeName="Kronos" />
+</PersonAuthenticationTypes>
+<PersonData>
+<Person FirstName="J" FullName="Adams, J A" HireDate="10/25/1998" LastName="Adams" MiddleInitial="A" PersonNumber="6" ShortName="J" FullTimeStandardHours="40" FullTimePercentage="100" AccrualProfileName="VAC, PRL, SK, FMLA Full Time" FingerRequiredFlag="false" BaseWageHourly="7.50" HasKmailNotificationDelivery="false">
+<FullTimeEquivalencies>
+<FullTimeEquivalency FullTimePercentage="100" FullTimeStandardHours="40" EffectiveDate="1/01/1900" />
+</FullTimeEquivalencies>
+</Person>
+</PersonData>
+<SupervisorData>
+<Supervisor FullName="Snow, F J" PersonNumber="12" />
+</SupervisorData>
+<CurrencyAssignment>
+<EmployeeCurrencyAssignment CurrencyCode="UNS" CurrencyLocale="" />
+</CurrencyAssignment>
+<KPassAccountAssignment>
+<KPassAccount LearningPath="" isRestrictedUser="false" />
+</KPassAccountAssignment>
+ </PersonInformation>
+</PersonInformationData>
+<WTKEmployeeData>
+<WTKEmployee AccrualProfileName="VAC, PRL, SK, FMLA Full Time" PayRuleName="Full Time" TimeZoneName="(GMT -05:00) Eastern Time" />
+</WTKEmployeeData>
+ </Personality>
+</Response>
+</Kronos_WFC>

@@ -1,0 +1,98 @@
+ [
+ {
+			"id": "COM S 104",
+			"description": "Introduction to computer programming for non-majors using a language such as the Visual Basic language. Basics of good programming and algorithm development. Graphical user interfaces.",
+			"days": [{
+					"day": "Monday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Tuesday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Wednesday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Thursday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Friday",
+					"start": "0900",
+					"finish": "1300"
+				}
+			],
+			"professor" : 1003,
+			"ta" : [101, 102, 103]
+		},
+		{
+			"id": "COM S 105",
+			"description": "Introduction to Web programming basics. Fundamentals of developing Web pages using a comprehensive Web development life cycle. In-depth experience with current Web design techniques such as HTML5 and cascading style sheets. Programming strategies for accessibility, usability and search engine optimization.",
+			"days": [{
+					"day": "Monday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Tuesday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Wednesday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Thursday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Friday",
+					"start": "0900",
+					"finish": "1300"
+				}
+			],
+			"professor" : 1002,
+			"ta" : [103, 104, 105]
+		},
+		{
+			"id": "COM S 107",
+			"description": "Introduction to computer programming for non-majors using a language such as the Visual Basic language. Basics of good programming and algorithm development. Graphical user interfaces.",
+			"days": [{
+					"day": "Monday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Tuesday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Wednesday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Thursday",
+					"start": "0900",
+					"finish": "1300"
+				},
+				{
+					"day": "Friday",
+					"start": "0900",
+					"finish": "1300"
+				}
+			],
+			"professor" : 1001,
+			"ta" : [101, 103, 104]
+		}
+	]

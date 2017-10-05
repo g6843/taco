@@ -1,0 +1,17 @@
+{
+	"courses": [{
+			"id": "Surprise Quiz1",
+			"name": "INTRO TO PROGRAMMNG",
+			"info": "A quick Quiz, which covers materials from weeks 1-3. No notes are allowed.",
+			"professor" : 1003,
+			"ta" : [101, 103]
+		},
+		{
+			"id": "Workshop on Cloud Computing",
+			"name": "Applied Computer Programming",
+			"info": " The duration of this workshop will be two consecutive days, with 4 hour session each day in a total of 8 hours properly divided into theory and hands on sessions. Day 1: 'Introduction to the cloud, What makes a cloud?, Challenges of cloud computing', Day 2: 'Cloud providers and their offerings, Amazon Web Services, Administering the Cloud'",
+			"professor" : 1001,
+			"ta" : [101, 103, 104]
+		}
+	]
+}
